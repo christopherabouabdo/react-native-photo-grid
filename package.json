@@ -1,0 +1,25 @@
+{
+  "name": "react-native-photo-grid",
+  "version": "0.0.1",
+  "description": "React Native component that handles the complexities of building a grid of photos with a flexible number of photos per row.",
+  "main": "PhotoGrid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christopherabouabdo/react-native-photo-grid.git"
+  },
+  "keywords": [
+    "react-native",
+    "photo",
+    "grid",
+    "square"
+  ],
+  "author": "christopherabouabdo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopherabouabdo/react-native-photo-grid/issues"
+  },
+  "homepage": "https://github.com/christopherabouabdo/react-native-photo-grid#readme"
+}
