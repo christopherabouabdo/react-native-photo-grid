@@ -1,8 +1,7 @@
 'use strict';
 
-
+import React, { Component } from 'react';
 import {
-  Component,
   Dimensions,
   ListView,
   StyleSheet,
