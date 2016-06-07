@@ -1,13 +1,13 @@
 'use strict';
 
-import React from 'react-native';
 
-let {
+import {
+  Component,
   Dimensions,
   ListView,
   StyleSheet,
   View,
-} = React;
+} from 'react-native';
 
 let styles = StyleSheet.create({
   row: {
