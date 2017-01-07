@@ -44,8 +44,7 @@ class PhotoGrid extends React.Component {
       <ListView
         { ...this.props }
         dataSource = { this.state.data.cloneWithRows(rows) }
-        renderRow = { this.renderRow.bind(this) }
-        style = {{ flex: 1 }} />
+        renderRow = { this.renderRow.bind(this) } />
     );
   }
 
