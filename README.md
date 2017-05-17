@@ -22,7 +22,7 @@ class BestGrid extends React.Component {
   componentDidMount() {
     // Build an array of 60 photos
     let items = Array.apply(null, Array(60)).map((v, i) => {
-      return { id: i, src: 'http://placehold.it/200x200?text='+(i+1) }
+      return { id: i, src: 'https://unsplash.it/600/400/?image='+(i+1) }
     });
     this.setState({ items });
   }
