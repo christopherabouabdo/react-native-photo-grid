@@ -60,6 +60,13 @@ class PhotoGrid extends React.Component {
     let itemWidth = Math.floor( (deviceWidth - totalMargin) / itemsPerRow );
     let adjustedMargin = ( deviceWidth - (itemsPerRow*itemWidth) ) / (itemsPerRow - 1);
 
+    let emptyViewsCount = (this.props.itemsPerRow || 3) - items.length;
+    var emptyViews = [];
+    for (var i = 0; i < emptyViewsCount; i++)
+    {
+      emptyViews.push(<View style={{width: itemWidth}}/>);
+    }
+
     return (
       <View style = {[ styles.row, { marginBottom: adjustedMargin } ]}>
         { items.map(item => this.props.renderItem(item, itemWidth)) }
